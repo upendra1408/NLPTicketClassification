@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route("/test", methods=["GET"])
 def test():
-    return "Test request received successfully. Service is running."
+    return "Test request received successfully. Service is running perfectly fine."
 
 
 @app.route("/", methods=["GET", "POST"])
